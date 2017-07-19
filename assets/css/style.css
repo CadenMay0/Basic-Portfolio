@@ -1,0 +1,52 @@
+header
+{
+	height: auto;
+}
+#aboutMe
+{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+
+#topbox
+{
+	top: 0%;
+	float:left;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman",serif;
+	margin-left: 7%;
+	margin-top: 2%;
+	padding:1vh 1vw 1vh 1vw;
+	width:auto;
+	height:auto;
+	font-size: 8vmin;
+	text-align: center;
+	color: white;
+}
+
+#links
+{
+	top: 0%;
+	float:right;
+	margin-top: 4%;
+	margin-right: 7%;
+	text-align: center;
+	font-size: 3vmin;
+}
+a
+{
+	color: gray;
+}
+
+#container1
+{
+	position: relative;
+	z-index: -1;
+	top:14.5%;
+	left:0%;
+	background-color: grey;
+	margin:0 auto;
+	width:auto;
+	height:400px;
+}
