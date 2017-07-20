@@ -1,52 +1,92 @@
-header
+#linkBox
 {
-	height: auto;
+	background-color: white;
+	color:gray;
+	text-align: center;
+	font-size: 4vh;
+	width: 25%;
+	height:25.5vh;
 }
-#aboutMe
+#blankSpace
 {
-	position: relative;
-	height: 100vh;
-	width: 100vw;
+	background-color: white;
+	width: 10%;
 }
-
-#topbox
+#nameBox
 {
-	top: 0%;
-	float:left;
-	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, "Times New Roman",serif;
-	margin-left: 7%;
-	margin-top: 2%;
-	padding:1vh 1vw 1vh 1vw;
-	width:auto;
-	height:auto;
-	font-size: 8vmin;
+	width: 45%;
+	font-size: 10vmin;
+	background-color: #4aaaa5;
 	text-align: center;
 	color: white;
+	height: 25.5vh;
 }
-
-#links
+#imagic
 {
-	top: 0%;
-	float:right;
-	margin-top: 4%;
-	margin-right: 7%;
-	text-align: center;
+	margin: 2vh 1vw 1vh 1vw;
+	height:25vh;
+	float:left;
+}
+#columnOne
+{
+	width: 10%;
+	background-color: white;
+}
+ table
+ {
+ 	margin: 0;
+ 	padding:0;
+ 	table-layout: fixed;
+ 	width: 100vw;
+ 	background-color: lightgray;
+ }
+ body
+ {
+ 	margin:0;
+ 	padding:0;
+ }
+#copyright
+{
+	background-color: darkgray;
+	height:16.5vh;
 	font-size: 3vmin;
+	color: grey;
+	text-align: center;
 }
-a
+#bioBox
 {
-	color: gray;
+	background-color: white;
+	margin: 2vh 3vw 2vh 3vw;
+	padding: 2vh 2vw 2vh 2vw;
+	font-size:3vmin;
+	height: 40vh;
 }
+#spacerBarUp
+{
+	height: 7.25vh;
+}
+#spacerBarLow
+{
+	height: 7.25vh;
+}
+#backSide
+{
+	background-color: white;
+	width: 10%;
+}
+#underBox
+{
+	height: 30vh;
+}
+#contactLinks
+{
+	margin: 2vh 3vw 2vh 3vw;
+	padding: 2vh 2vw 2vh 2vw;
+	background-color: white;
+}
+#rowThree
+{
+	height: 10vh;
 
-#container1
-{
-	position: relative;
-	z-index: -1;
-	top:14.5%;
-	left:0%;
-	background-color: grey;
-	margin:0 auto;
-	width:auto;
-	height:400px;
 }
