@@ -23,16 +23,16 @@
  		<td rowspan="2" id="bioBox" style="vertical-align: top;">
  		<h2 style="color: #4aaaa5; font-size: 6vh; font-family: 'Georgia', Times, 'Times New Roman',serif;"">Contact Me</h2>
  		<hr>
- 		<form action="mailto:cadenmayo@gmail.com" method="get" encodetype="text/plain">
+ 		<form name="fullForm" id="emailBox" action="javascript:DoSubmit();" method="get" return string;>
  			Name<br>
  			<input type="text" name="fullName" id="userName">
  			<br>Subject<br>
- 			<input type="text" name="subject">
+ 			<input type="text" id="mailSubjecto" name="subject" return="text">
  			<br>Message<br>
- 			<textarea name="body" style="height: 12vh; width: 35vw;"></textarea>
+ 			<textarea id="emailMeat" name="body" style="height: 12vh; width: 35vw;"></textarea>
  			<br>
  			<input type="submit" name="send" value="Send">
- 		</form>
+ 		</form> 
 		</td>
 		<td>&nbsp;</td>
 		<td id="contactLinks">
@@ -57,5 +57,16 @@
 		<td id="copyright" colspan=5 style="text-align: center; vertical-align: middle;">&copy; 2017 Caden Mayo</td>
 	</tr>
 </table>
-</body>
+</body>'
+
+	<script>function DoSubmit(){
+	var sub = document.getElementById("mailSubjecto").value;
+ 	var mt = document.getElementById("emailMeat").value;
+ 	var strStringy = mt.toString();
+ 	var outup = strStringy.replace(/'+'/g,"%20");
+ 	var subStringy = sub.toString();
+ 	var sbubject = subStringy.replace(/'+'/g, "%20");
+ 	 window.open("mailto:cadenmayo@gmail.com?subject=&subject="+sbubject+"&body="+outup);
+ 	 return true;
+	}</script>
 </html>
